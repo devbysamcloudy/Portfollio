@@ -281,7 +281,6 @@
   align-items: center;
   gap: var(--spacing-sm);
   box-shadow: var(--shadow-lg);
-  animation: float 4s ease-in-out infinite;
   white-space: nowrap;
 }
 
