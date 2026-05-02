@@ -8,7 +8,7 @@ export const experience = [
     endDate: '2026-07',
     current: true,
     type: 'education',
-    description: 'Intensive full-stack software development program covering React, TypeScript, Python, Flask, FastAPI, PostgreSQL, and modern development practices.',
+    description: 'Intensive full-stack software development program covering React, JavaScript, Python, Flask, FastAPI, PostgreSQL, and modern development practices.',
     highlights: [
       'Built JARVIS AI Personal Assistant as capstone project',
       'Served as Team Lead on group project',
