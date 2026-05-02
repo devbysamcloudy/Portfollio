@@ -118,19 +118,17 @@ function Hero() {
               </div>
             </div>
 
-            <div className="floating-cards">
-              <div className="float-card card-1">
-                <span className="card-icon">⚡</span>
-                <p className="card-text">Fast Learner</p>
-              </div>
-              <div className="float-card card-2">
-                <span className="card-icon">🎯</span>
-                <p className="card-text">Problem Solver</p>
-              </div>
-              <div className="float-card card-3">
-                <span className="card-icon">🚀</span>
-                <p className="card-text">Team Player</p>
-              </div>
+            <div className="float-card card-1">
+              <span className="card-icon">⚡</span>
+              <p className="card-text">Fast Learner</p>
+            </div>
+            <div className="float-card card-2">
+              <span className="card-icon">🎯</span>
+              <p className="card-text">Problem Solver</p>
+            </div>
+            <div className="float-card card-3">
+              <span className="card-icon">🚀</span>
+              <p className="card-text">Team Player</p>
             </div>
           </div>
         </div>
