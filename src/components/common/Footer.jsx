@@ -107,7 +107,7 @@ function Footer() {
             © {currentYear} Samuel Nganga. All rights reserved.
           </p>
           <p className="footer-credit">
-            Built with <i className="fas fa-heart"></i> using React & TypeScript
+            Built with <i className="fas fa-heart"></i> using React & JavaScript
           </p>
         </div>
       </div>
