@@ -178,6 +178,7 @@
   position: relative;
   opacity: 0;
   animation: fadeInRight 0.8s ease-out 0.4s forwards;
+  padding: 0 60px;
 }
 
 .hero-image-wrapper {
@@ -267,6 +268,7 @@
   height: 100%;
   top: 0;
   left: 0;
+  pointer-events: none;
 }
 
 .float-card {
@@ -280,23 +282,24 @@
   gap: var(--spacing-sm);
   box-shadow: var(--shadow-lg);
   animation: float 4s ease-in-out infinite;
+  white-space: nowrap;
 }
 
 .card-1 {
-  top: 10%;
-  left: -10%;
+  top: 5%;
+  left: -45%;
   animation-delay: 0s;
 }
 
 .card-2 {
-  top: 50%;
-  right: -15%;
+  top: 45%;
+  right: -45%;
   animation-delay: 1s;
 }
 
 .card-3 {
-  bottom: 15%;
-  left: -5%;
+  bottom: 5%;
+  left: -40%;
   animation-delay: 2s;
 }
 

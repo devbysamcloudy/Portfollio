@@ -90,7 +90,7 @@ function Footer() {
               </li>
               <li>
                 <i className="fas fa-envelope"></i>
-                <a href="mailto:your.email@example.com">your.email@example.com</a>
+                <a href="mailto:snganga685@gmail.com">snganga685@gmail.com</a>
               </li>
               <li>
                 <i className="fab fa-github"></i>
