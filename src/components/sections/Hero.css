@@ -224,7 +224,7 @@
 .hero-badge {
   position: absolute;
   bottom: 20px;
-  right: -20px;
+  right: -60px;
   background: var(--color-white);
   padding: var(--spacing-md) var(--spacing-lg);
   border-radius: var(--radius-lg);
@@ -233,7 +233,6 @@
   align-items: center;
   gap: var(--spacing-sm);
   z-index: 2;
-  animation: float 3s ease-in-out infinite;
 }
 
 @keyframes float {
@@ -286,7 +285,7 @@
 
 .card-1 {
   top: 5%;
-  left: -45%;
+  left: -55%;
   animation-delay: 0s;
 }
 
