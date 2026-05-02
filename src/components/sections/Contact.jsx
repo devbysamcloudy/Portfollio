@@ -1,6 +1,11 @@
 import { useState } from 'react'
+import emailjs from '@emailjs/browser'
 import { socialLinks } from '../../data/socialLinks'
 import './Contact.css'
+
+const SERVICE_ID = 'service_32o0okw'
+const TEMPLATE_ID = 'template_4nirmkn'
+const PUBLIC_KEY = 'seMbDoX3fvnzoKazs'
 
 function Contact() {
   const [formData, setFormData] = useState({
@@ -27,16 +32,20 @@ function Contact() {
     e.preventDefault()
     setFormStatus({ submitted: false, loading: true, error: null })
 
-    // Simulate form submission (replace with actual API call)
-    setTimeout(() => {
+    try {
+      await emailjs.send(SERVICE_ID, TEMPLATE_ID, {
+        from_name: formData.name,
+        from_email: formData.email,
+        subject: formData.subject,
+        message: formData.message,
+      }, PUBLIC_KEY)
+
       setFormStatus({ submitted: true, loading: false, error: null })
       setFormData({ name: '', email: '', subject: '', message: '' })
-      
-      // Reset success message after 5 seconds
-      setTimeout(() => {
-        setFormStatus({ submitted: false, loading: false, error: null })
-      }, 5000)
-    }, 1500)
+      setTimeout(() => setFormStatus({ submitted: false, loading: false, error: null }), 5000)
+    } catch (error) {
+      setFormStatus({ submitted: false, loading: false, error: 'Failed to send message. Please try again.' })
+    }
   }
 
   const contactInfo = [
