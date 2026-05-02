@@ -50,7 +50,7 @@ function About() {
           <div className="about-image-section">
             <div className="about-image-wrapper">
               <img 
-                src="/src/assets/images/profile/WhatsApp Image 2026-04-29 at 11.22.42.jpeg"
+                src="/images/profile/WhatsApp Image 2026-04-29 at 11.22.42.jpeg"
                 alt="Samuel Profile"
                 className="about-image"
               />

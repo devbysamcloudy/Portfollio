@@ -105,7 +105,7 @@ function Hero() {
             <div className="hero-image-wrapper">
               <div className="hero-image-bg"></div>
               <img 
-                src="/src/assets/images/profile/WhatsApp Image 2026-04-29 at 11.22.42.jpeg" 
+                src="/images/profile/WhatsApp Image 2026-04-29 at 11.22.42.jpeg" 
                 alt="Samuel Profile" 
                 className="hero-image"
               />

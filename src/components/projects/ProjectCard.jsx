@@ -17,7 +17,7 @@ function ProjectCard({ project, index }) {
               alt={project.title}
               className="project-image"
               onError={(e) => {
-                e.target.src = '/src/assets/hero.png'
+                e.target.src = '/images/hero.png'
               }}
             />
           ) : (
